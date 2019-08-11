@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>COMP90007 Tutorial</title>
     <link>https://yiranruan.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on COMP90007 Tutorial</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2019 21:41:36 +1000</lastBuildDate>
@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>My First Post</title>
+      <title>Slides for tutorial week 2 (Lab Wirshark)</title>
       <link>https://yiranruan.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 03 Aug 2019 21:41:36 +1000</pubDate>
       
       <guid>https://yiranruan.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <description>Notice about COMP90007 tutorial Hi students,
+​ Welcome to my repository and thank you to come my tutorials.
+​ I am glad if you like my tutorials.
+​ Here is the tutorial slides for each week. Feel free to download it. And please give me a star if you like it LOL. I will maintain this GitHub repository continually. You could watch it and if you found any problems in my slides, you are welcome to start a new issues here.</description>
     </item>
     
   </channel>

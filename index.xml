@@ -6,18 +6,32 @@
     <description>Recent content on COMP90007 Tutorial</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Aug 2019 21:41:36 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 02:06:52 +1000</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Slides for tutorial week 2 (Lab Wirshark)</title>
+      <title>Tutorial_week2</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week2/</link>
+      <pubDate>Mon, 12 Aug 2019 02:06:52 +1000</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week2/</guid>
+      <description>This is tutorial for week2 ​ In week 2, we have learned how to use Wireshark and wget to test the network
+​ We simply introduced IP address, three-way handshake, overhead and layer achetechture.
+​ Hope you have fun with this subject and my tutorial.
+​ This is my slides.
+Cheers,
+Yiran Ruan</description>
+    </item>
+    
+    <item>
+      <title>Important notices about COMP90007 tutorial</title>
       <link>https://yiranruan.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 03 Aug 2019 21:41:36 +1000</pubDate>
       
       <guid>https://yiranruan.github.io/posts/my-first-post/</guid>
-      <description>Notice about COMP90007 tutorial Hi students,
+      <description>Notices about COMP90007 tutorial Hi students,
 ​ Welcome to my repository and thank you to come my tutorials.
 ​ I am glad if you like my tutorials.
 ​ Here is the tutorial slides for each week. Feel free to download it. And please give me a star if you like it LOL. I will maintain this GitHub repository continually. You could watch it and if you found any problems in my slides, you are welcome to start a new issues here.</description>

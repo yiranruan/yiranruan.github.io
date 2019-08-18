@@ -6,10 +6,20 @@
     <description>Recent content on COMP90007 Tutorial - Yiran Ruan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2019 02:06:52 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2019 21:37:47 +1000</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial_week3</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week3/</link>
+      <pubDate>Sun, 18 Aug 2019 21:37:47 +1000</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week3/</guid>
+      <description>This is tutorial slides for week3 ​ In this week, we have compared the properties between OSI model and TCP/IP model. They both have a similar stacking protocol achitecture, which holds advantages on flexibility and information hiding (content in week2). In terms of differences, OSI model has a good distinguish between Service, Protocol and Interface. In the meanwhile, TCP/IP doesn&amp;rsquo;t.
+​ Service defines what the process does, but not how entities above it access it or how the layer works.</description>
+    </item>
     
     <item>
       <title>Tutorial_week2</title>

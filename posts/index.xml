@@ -6,10 +6,19 @@
     <description>Recent content in Posts on COMP90007 Tutorial - Yiran Ruan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2019 21:37:47 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 14:11:13 +1000</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial_week4</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week4/</link>
+      <pubDate>Sat, 24 Aug 2019 14:11:13 +1000</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week4/</guid>
+      <description>This is tutorial slides for week4 ​ The first thing that we discussed in this week is two important theorems, Nyquist&amp;rsquo;s and Shannon&amp;rsquo;s theorem, in physical layer. The main difference between them is Nyquist&amp;rsquo;s theorem assums the channel that we used to transform data is noise-less while the Shannon&amp;rsquo;s theorem is only used for a noisy channel. They both have two components in their formula, bandwidth and levels of signal.</description>
+    </item>
     
     <item>
       <title>Tutorial_week3</title>

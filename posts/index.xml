@@ -6,10 +6,21 @@
     <description>Recent content in Posts on COMP90007 Tutorial - Yiran Ruan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Aug 2019 14:11:13 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 08:51:19 +1000</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial_week5</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week5/</link>
+      <pubDate>Mon, 26 Aug 2019 08:51:19 +1000</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week5/</guid>
+      <description>This is tutorial slides for week5 ​ Here is the slides. More info would be updated later. Have fun with your project.
+Cheers,
+Yiran Ruan</description>
+    </item>
     
     <item>
       <title>Tutorial_week4</title>

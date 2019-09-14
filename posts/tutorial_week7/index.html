@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>COMP90007 Tutorial - Yiran Ruan  | Tutorial_week7</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.56.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Tutorial_week7" />
+<meta property="og:description" content="This is tutorial slides for week7 ​ In this week, we have discussed about MACA protocol, IP address (mainly about prefix and subnetmask) and fragmentation.
+​ MACA, which is an wonderful protocol to help us aviod collisions withour carrier sense medium. The basic idea is that for the sender to stimulate the receiver into outputting a short frame, so stations nearby can detect this transmission and avoid transmitting for the duration of the upcoming (large) data frame." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yiranruan.github.io/posts/tutorial_week7/" />
+<meta property="article:published_time" content="2019-09-10T17:48:14+10:00" />
+<meta property="article:modified_time" content="2019-09-10T17:48:14+10:00" />
+<meta itemprop="name" content="Tutorial_week7">
+<meta itemprop="description" content="This is tutorial slides for week7 ​ In this week, we have discussed about MACA protocol, IP address (mainly about prefix and subnetmask) and fragmentation.
+​ MACA, which is an wonderful protocol to help us aviod collisions withour carrier sense medium. The basic idea is that for the sender to stimulate the receiver into outputting a short frame, so stations nearby can detect this transmission and avoid transmitting for the duration of the upcoming (large) data frame.">
+
+
+<meta itemprop="datePublished" content="2019-09-10T17:48:14&#43;10:00" />
+<meta itemprop="dateModified" content="2019-09-10T17:48:14&#43;10:00" />
+<meta itemprop="wordCount" content="267">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial_week7"/>
+<meta name="twitter:description" content="This is tutorial slides for week7 ​ In this week, we have discussed about MACA protocol, IP address (mainly about prefix and subnetmask) and fragmentation.
+​ MACA, which is an wonderful protocol to help us aviod collisions withour carrier sense medium. The basic idea is that for the sender to stimulate the receiver into outputting a short frame, so stations nearby can detect this transmission and avoid transmitting for the duration of the upcoming (large) data frame."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://yiranruan.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      COMP90007 Tutorial - Yiran Ruan
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Tutorial_week7</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-09-10T17:48:14&#43;10:00">September 10, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h4 id="this-is-tutorial-slides-for-week7">This is tutorial slides for week7</h4>
+
+<p>​       In this week, we have discussed about MACA protocol, IP address (mainly about prefix and subnetmask) and fragmentation.</p>
+
+<p>​       MACA, which is an wonderful protocol to help us aviod collisions withour carrier sense medium. The basic idea is that for the sender to stimulate the receiver into outputting a short frame, so stations nearby can detect this transmission and avoid transmitting for the duration of the upcoming (large) data frame. RTS (Request to send) and CTS (Clear to send) are two short frame (about 30 bytes) which work as indicators to indicate every stations in the range of A and B to keep slience while they are transmitting. The size of data would be included in RTS and CTS to help other stations to calculate how long that they need to be quiet.</p>
+
+<p>​      Prefix and Subnetmask are used for recognize and extract network portion from IP address. Prefixes are written by giving the lowest IP address in the block and the size of the block. The length of the prefix corresponds to a binary mask of 1s in the network portion for Subnet mask.</p>
+
+<p>​      Fragmentation is last content that we discussed. An obvious internetworking problem appears when a large packet wants to travel through a network whose maximum packet size is too small. We introduced fragmentation to solve this problem. There are two kinds of fragmentations, transparent fragmentation and non-transparent fragmentation.</p>
+
+<p>​      That&rsquo;s all. Thank you for coming my tutorial this week. See you next week. Have fun with your weekend. Here is the <a href="/slides/week7.pdf">slides</a>.</p>
+
+<p>Cheers</p>
+
+<p>Yiran Ruan</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://yiranruan.github.io/" >
+    &copy; 2019 COMP90007 Tutorial - Yiran Ruan
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

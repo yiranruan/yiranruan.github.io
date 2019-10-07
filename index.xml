@@ -6,10 +6,20 @@
     <description>Recent content on COMP90007 Tutorial - Yiran Ruan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2019 22:55:21 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 19:20:47 +1100</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial_week9</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week9/</link>
+      <pubDate>Mon, 07 Oct 2019 19:20:47 +1100</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week9/</guid>
+      <description>This is tutorial slides for week9 ​ Sorry for the late update.
+​ In this week, we have talked about deadlock, 3-way handshake and 2-army problems. Due to no solution for 2-army problems as for now, both 2-way handshake and 3-way handshake have risk to encouneter deadlock. To solve this problem, we use connection release as a example, to show you how important timer is in our system. Timer would set a time and expected to receive reply during this period.</description>
+    </item>
     
     <item>
       <title>Tutorail_week8</title>

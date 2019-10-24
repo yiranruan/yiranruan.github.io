@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>COMP90007 Tutorial - Yiran Ruan  | Tutorial_week11</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.56.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Tutorial_week11" />
+<meta property="og:description" content="This is tutorial slides for week11 ​ Hi everyone, thanks again for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+​ For last week, I am sorry for my late-arriving on Friday and I hope I could do something to fix it. I will post an recording on youtube and those who were missing this tutorial could learn at home." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yiranruan.github.io/posts/tutorial_week11/" />
+<meta property="article:published_time" content="2019-10-24T22:31:35+11:00" />
+<meta property="article:modified_time" content="2019-10-24T22:31:35+11:00" />
+<meta itemprop="name" content="Tutorial_week11">
+<meta itemprop="description" content="This is tutorial slides for week11 ​ Hi everyone, thanks again for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+​ For last week, I am sorry for my late-arriving on Friday and I hope I could do something to fix it. I will post an recording on youtube and those who were missing this tutorial could learn at home.">
+
+
+<meta itemprop="datePublished" content="2019-10-24T22:31:35&#43;11:00" />
+<meta itemprop="dateModified" content="2019-10-24T22:31:35&#43;11:00" />
+<meta itemprop="wordCount" content="542">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial_week11"/>
+<meta name="twitter:description" content="This is tutorial slides for week11 ​ Hi everyone, thanks again for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+​ For last week, I am sorry for my late-arriving on Friday and I hope I could do something to fix it. I will post an recording on youtube and those who were missing this tutorial could learn at home."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://yiranruan.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      COMP90007 Tutorial - Yiran Ruan
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Tutorial_week11</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-10-24T22:31:35&#43;11:00">October 24, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h4 id="this-is-tutorial-slides-for-week11">This is tutorial slides for week11</h4>
+
+<p>​        Hi everyone, thanks again for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!</p>
+
+<p>​        For last week, I am sorry for my late-arriving on Friday and I hope I could do something to fix it. I will post an recording on youtube and those who were missing this tutorial could learn at home.</p>
+
+<p>​        On week 11, we have talked about several application systems and protocols. The first important system is DNS (Domain Name System). The problem why we need this system is because for human beings, it is rarely for us to remember the IP address of one sepefic server. We need a system for resolving URL link. Different zones are divided and allocated to one or several networks. Some well-known zones, for example, are &ldquo;org&rdquo; for orginazations, &ldquo;edu&rdquo; for educations, &ldquo;au&rdquo; for Australian websites. When we want to do IP address resolution. We send the URL link (for example, www.cis.unimelb.edu.au) to local name server. If this name server know the answer, it will return us the IP address. What we get from this local name server is exactly the final answer that we need. This mode is called recursive mode. If this name server does not know the IP address, it will send the same query to root name server. The root name server notice the &ldquo;au&rdquo; zone that we use. This server would return the IP address for name server which belongs to &ldquo;au&rdquo; zone. Then the local name server would send another query to &ldquo;au&rdquo; name server. That server would return IP address of &ldquo;edu&rdquo; name server. For each query that the local name server made, this server would get a partial answer and use that IP address to find next name server untill it get the IP address for URL link. We call this process as iterative mode.</p>
+
+<p>​        Then we discussed about how to use cache and cookie to improve our experience in Network. The cookie could help server to recognise the user would want to access it again and provide a better service based on history recording that it saved in its database.</p>
+
+<p>​        Cache is a internal or external space that we used to store web page when we download it from servers. It could help us access this web quickly and reduce the load on server end. The issue for cache is that we need to figure out whether the server administrators has updated thier web pages. It is hard to do predictions. The first strategy to solve this problem is to allocate a expire date for each web page that we download. Another strategy is to send a Conditional GET signal to the other end and ask the server whether they have updated their web page. If did, the server would send reply including the newest web page. If didn&rsquo;t, the server would send another signal to indicate the cache that it could delivery the stored page to the user.</p>
+
+<p>​        Thank you for coming to my tutorial. I am so sorry for the late-arriving on Friday. Here is the <a href="/slides/week11.pdf">slides</a>.</p>
+
+<p>Cheers</p>
+
+<p>Yiran Ruan</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://yiranruan.github.io/" >
+    &copy; 2019 COMP90007 Tutorial - Yiran Ruan
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

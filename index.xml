@@ -6,10 +6,20 @@
     <description>Recent content on COMP90007 Tutorial - Yiran Ruan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Oct 2019 22:31:35 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 20:02:41 +1100</lastBuildDate>
     
 	<atom:link href="https://yiranruan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial_week12</title>
+      <link>https://yiranruan.github.io/posts/tutorial_week12/</link>
+      <pubDate>Sat, 26 Oct 2019 20:02:41 +1100</pubDate>
+      
+      <guid>https://yiranruan.github.io/posts/tutorial_week12/</guid>
+      <description>This is tutorial slides for week12 Hi everyone, this is the last week for both semester and our subject. Thanks for your attendance in my tutorial. The tutors&amp;rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+The topic of this week is about security. We have discussed about four areas/aspects of Security. The first question is refered to secrecy.</description>
+    </item>
     
     <item>
       <title>Tutorial_week11</title>

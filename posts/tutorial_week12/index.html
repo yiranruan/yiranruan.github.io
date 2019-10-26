@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>COMP90007 Tutorial - Yiran Ruan  | Tutorial_week12</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.56.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Tutorial_week12" />
+<meta property="og:description" content="This is tutorial slides for week12 Hi everyone, this is the last week for both semester and our subject. Thanks for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+The topic of this week is about security. We have discussed about four areas/aspects of Security. The first question is refered to secrecy." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yiranruan.github.io/posts/tutorial_week12/" />
+<meta property="article:published_time" content="2019-10-26T20:02:41+11:00" />
+<meta property="article:modified_time" content="2019-10-26T20:02:41+11:00" />
+<meta itemprop="name" content="Tutorial_week12">
+<meta itemprop="description" content="This is tutorial slides for week12 Hi everyone, this is the last week for both semester and our subject. Thanks for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+The topic of this week is about security. We have discussed about four areas/aspects of Security. The first question is refered to secrecy.">
+
+
+<meta itemprop="datePublished" content="2019-10-26T20:02:41&#43;11:00" />
+<meta itemprop="dateModified" content="2019-10-26T20:02:41&#43;11:00" />
+<meta itemprop="wordCount" content="781">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial_week12"/>
+<meta name="twitter:description" content="This is tutorial slides for week12 Hi everyone, this is the last week for both semester and our subject. Thanks for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!
+The topic of this week is about security. We have discussed about four areas/aspects of Security. The first question is refered to secrecy."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://yiranruan.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      COMP90007 Tutorial - Yiran Ruan
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Tutorial_week12</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-10-26T20:02:41&#43;11:00">October 26, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h4 id="this-is-tutorial-slides-for-week12">This is tutorial slides for week12</h4>
+
+<p>Hi everyone, this is the last week for both semester and our subject. Thanks for your attendance in my tutorial. The tutors&rsquo; feedback for this semester is opening now. If you have time, pls fill in the form for us. Thank you very much!</p>
+
+<p>The topic of this week is about security. We have discussed about four areas/aspects of Security. The first question is refered to <strong>secrecy</strong>. The process of secrecy could be represented by the formula as follows.</p>
+
+<p>$$
+D_{K<em>2}(E</em>{K_1}(P)) = P
+$$</p>
+
+<p>If we set $K_1 = K_2$, this algorithm is symmetric algorithm. And if we set $K_1 \neq K_2$, we call this algorithm as asymmetric algorithm.</p>
+
+<p>RSA is one kinds of asymmetric algorithms, which use two kinds of keys, public key and private key to do encryption and decryption. The steps and examples of how to generate those keys and how to do encryption and decryption are specified in my slides.</p>
+
+<p>Next toptic is about how to let Alice cannot refute the fact that a document was signed by herself. We call it <strong>non-repudiation</strong>. To achieve this goal, we could use the property of RSA. When Alice sent the document to Bob, she has to sign her document by using her private key to encrypt her document. This cipertext would be sent to Bob attached on the document. When Bob received this document, he could do decryption by using the public key of Alice. If it works, it means this document is encrypted by using the private key of Alice. And we know the fact that only Alice has the private key of Alice. Hence, this document could only be signed and sent by Alice. Not anyone else.</p>
+
+<p>We have known how asymmetric algorithms work in network. How about symmetric algorithm? If we set $K_1 = K_2$, it seems like we cannot send the key to other end directly, which would reveal our key to the public. Hence, we need another system to do key exchange, which is the topic of Question3 and Question4.</p>
+
+<p>Then we talked about <strong>Integrity control</strong> in question 3. Even though it seems like it is impossible for a third guy to break Diffie-Hellman key exchange system, due to large primes n and g. The third guy, Trude, could generate her number z to create session keys with Alice and Bob respectively. When the communication starts, Alice would think the guy who communicates with her is Bob and Bob would think that guy is Alice. The message from Alice and Bob would be known and tempered with by Trudy.</p>
+
+<p>The reason why former key exchange system is not safe is because for both Alice and Bob, it is hard for them to make sure that the guy who communicates with them is the guy they want to talk with. And this is another topic in Network security, <strong>authentication</strong>. To reach this goal, at the beginning, Alice asks a server to send her the public key of Bob and generate a identification $R_A$. Alice uses the key to encrypt a message which include the name of herself and the identification that she generated. This message is received by Bob. Bob opens the message by using his private key. Bob asks the same server to fetch the public key of Alice. Then Bob generate his identification $R_B$ and the session key that he want to use with Alice. The name of Bob, $R_A$, $R_B$ and session key would be put in one message and encrypted by using the public key of Alice. The message is received by Alice. When Alice uses her key to open this message, she would see her identification. As for now, we know the fact that the message which was encrypted by Bob&rsquo;s public key could be only openned by Bob&rsquo;s private key. Hence, only the owner of Bob&rsquo;s private key could read the message and get $R_A$. And another fact shows that only Bob has his private key. Hence, the guy who sent this message which include $R_A$ is able to be and can only be Bob himself. So we let Alice to be comfirm the identification of Bob. Then Alice uses the session key she received to encrypt the $R_B$ and sent it to Bob. For same reason as before, Bob could identify the identification of Alice.</p>
+
+<p>The topics of security are interesting. If you like this area, we have another subject, <strong>COMP90043 Cryptography and Security</strong> in semester 2.</p>
+
+<p>Thank you for coming to my tutorial and your hard work on this subject. I hope all of you could get a good mark in your final exam. Here is the <a href="/slides/week12.pdf">slides</a>.</p>
+
+<p>Cheers</p>
+
+<p>Yiran Ruan</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://yiranruan.github.io/" >
+    &copy; 2019 COMP90007 Tutorial - Yiran Ruan
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
